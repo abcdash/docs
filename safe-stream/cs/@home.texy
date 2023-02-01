@@ -63,5 +63,4 @@ Zápis se provádí do dočasných souborů a teprve po úspěšném zapsání s
 Pokud zapisujete do existujícího souboru v režimu `a` (append), SafeStream vytvoří jeho kopii. Zapisovat v tomto režimu má tedy vyšší režii, než zápis v ostatních módech.
 
 
-{{composer: nette/safe-stream}}
 {{leftbar: utils:@left-menu}}
