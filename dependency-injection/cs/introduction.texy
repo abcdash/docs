@@ -331,7 +331,7 @@ Jenže nový `Logger`, který již nepoužívá konstantu `LogDir`, vyžaduje v 
 
 Řešením je opět [#pravidlo č. 1: používej parametry]: všechna data, která třída potřebuje, jim předáme.
 
-Takže předáme do konstruktoru cestu k logu, kterou pak použijeme při vytváření objektu `Logger`? Nikoliv. Cesta totiž nejdou data, která třída `NewsletterDistributor` potřebuje; ty potřebuje `Logger`. Třída potřebuje logger jako takový. A ten si předáme:
+Takže předáme do konstruktoru cestu k logu, kterou pak použijeme při vytváření objektu `Logger`? Nikoliv. Cesta totiž nejsou data, která třída `NewsletterDistributor` potřebuje; ty potřebuje `Logger`. Třída potřebuje logger jako takový. A ten si předáme:
 
 
 ```php
