@@ -1,10 +1,10 @@
-Konfigurace přístupovch oprávnění
+Konfigurace přístupových oprávnění
 *********************************
 
 .[perex]
 Přehled konfiguračních voleb pro Nette Security.
 
-Pokud nepoužívate celý framework, ale jen tuto knihovnu, přečtěte si, [jak konfiguraci načíst|bootstrap:].
+Pokud nepoužíváte celý framework, ale jen tuto knihovnu, přečtěte si, [jak konfiguraci načíst|bootstrap:].
 
 V konfiguraci lze definovat seznam uživatelů, a tak vytvořit [jednoduchý authenticator|authentication] (`Nette\Security\SimpleAuthenticator`). Protože se v konfiguraci uvádějí hesla v čitelné podobě, je tohle řešení vhodné pouze pro testovací účely.
 
